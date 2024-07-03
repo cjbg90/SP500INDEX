@@ -1,0 +1,48 @@
+# Airflow y sus dependencias
+apache-airflow==2.6.1
+apache-airflow-providers-snowflake==4.1.0
+apache-airflow-providers-amazon==7.3.0
+
+# Bibliotecas para análisis de datos
+pandas==1.5.3
+numpy==1.23.5
+
+# Biblioteca para datos financieros
+yfinance==0.2.18
+
+# Conector de Snowflake para Python
+snowflake-connector-python==3.0.4
+
+# Bibliotecas AWS
+boto3==1.26.142
+
+# Bibliotecas para visualización (si se realiza alguna visualización en Python)
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Bibliotecas para manejo de datos
+pyarrow==12.0.0
+
+# Bibliotecas para procesamiento de fechas
+python-dateutil==2.8.2
+
+# Bibliotecas para logging y manejo de errores
+loguru==0.7.0
+
+# Bibliotecas para testing
+pytest==7.3.1
+
+# Bibliotecas para manejo de configuraciones
+python-dotenv==1.0.0
+
+# Bibliotecas para manejo de formatos de archivo
+openpyxl==3.1.2
+
+# Bibliotecas para procesamiento paralelo
+dask==2023.5.0
+
+# Bibliotecas para machine learning (si se planea implementar en el futuro)
+scikit-learn==1.2.2
+
+# Bibliotecas para manejo de datos SQL
+sqlalchemy==2.0.15
